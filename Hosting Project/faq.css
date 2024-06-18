@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.faq_head
+{
+	font-family: 'Poppins', sans-serif;
+	margin: 60px 0px;
+	text-align: center;
+	height: 100%;
+}
+.faq_head>h1
+{
+	font-size: 2rem;
+	padding: 20px 0px;
+}
+.faq_head>p
+{
+	font-size: 14px;
+	color: #9d9eba;
+}
+.faq_content
+{
+	display:flex;
+	justify-content: space-evenly;
+	margin-left:15%;
+}
+.faq_sub1
+{
+	height: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+.faq_sub2
+{
+	font-family: 'Poppins', sans-serif;
+	width: 60%;
+}
+.faq_sub1>.faq_sub1_content>p
+{
+	color: #9d9eba;
+}
+.faq_sub1>.faq_sub1_content>h2
+{
+	color: #3898f8;
+	margin-top: 25px;
+	font-size: 3rem;
+}
+.faq_sub2>.faq_sub2_content>p
+{
+	width:75%;
+	font-size: 14px;
+	line-height: 25px;
+	color: #9d9eba;
+}
+.faq_sub2>.faq_sub2_content>h2
+{
+	margin: 25px 0px;
+}
+#faq_head
+{
+	height: 60vh;
+	margin: 10% 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	background-color: #3898f8;
+}
+#faq_content>h1
+{
+	font-size: 34px;
+	padding-top: 10%;
+}
+#faq_content>p
+{
+	width: 60%;
+	margin-left: 20%;
+	font-size: 14px;
+	padding: 2% 0;
+}
+#faq_content>button
+{
+	height: 45px;
+	width: 17%;
+	font-family: 'Poppins', sans-serif;
+	border: none;
+	border-radius: 25px;
+}
+#faq_content>button:hover
+{
+	background-color: transparent;
+	border:1px solid white;
+	color: white;
+}

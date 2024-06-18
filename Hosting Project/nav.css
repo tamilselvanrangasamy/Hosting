@@ -1,0 +1,292 @@
+*
+{
+	margin: 0px;
+	padding:0px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+header
+{
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	background-color: white;
+}
+.parent
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.nav_list ul
+{
+	display: flex;
+/*	position: relative;*/
+}
+.nav_list ul li
+{
+	list-style: none;
+	padding-left: 30px;
+}
+.nav_list li a
+{
+	text-decoration: none;
+	color: black;
+	font-size:0.9rem;
+	font-family: 'Poppins', sans-serif;
+}
+.responsive >button
+{
+	display: none;
+	width: 100px;
+	height: 30px;
+	border-radius: 25px;
+	border: none;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 0px;
+	top: 30%;
+}
+#sub >ol
+{
+	display: none;
+	position: absolute;
+	border: none;
+	height: 60px;width: 200px;
+	background-color: white;
+}
+#sub >ol>li>a
+{
+	font-size: 17px;
+	color: gray;
+}
+#sub_menu>li:hover #sub >ol
+{
+	display: block;
+}
+.main_content
+{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-image: url("./images/bgbody.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.main_content_head >h1
+{
+	position: absolute;
+	width: 35%;
+	font-size: 3rem;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	top: 25%;left: 15%;
+	line-height: 50px;
+}
+.main_content_para >p
+{
+	position: absolute;
+	width: 38%;
+	font-size: 1rem;
+	top: 50%;left: 15%;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+.content_button >button
+{
+	height: 40px;width: 200px;
+	background-color: white;
+	border:none;
+	position: absolute;
+	top: 65%;left: 15%;
+	font-size: 0.71rem;
+	font-weight: bolder;
+	border-radius: 30px;
+}
+.content_button >button:hover
+{
+	color: white;
+	background-color:transparent;
+	border:1px solid white ;
+	font-family: 'Poppins', sans-serif;
+}
+.content1
+{
+	display: flex;
+	justify-content: center;
+	height:auto;
+	width: auto;
+}
+.img_content1 >a>img
+{
+	margin: 80px 40px;
+}
+.img_content1 >a>img:hover 
+{
+	filter: grayscale(100%);
+}
+.content2
+{
+	height: 130px;
+}
+.content2_sub
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+#hr
+{
+	border: 1px solid #f0eded;
+	width: 75%;
+	margin-top:90px;
+	margin-left: 12%;
+}
+.content_head
+{
+	margin-top: 20px;
+	color: gray;
+	font-family: 'Poppins', sans-serif;
+}
+.content_head >h3
+{
+	color: black;
+}
+.content_para
+{
+	height: auto;
+	width: 50%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	color: gray;
+}
+#line
+{
+	border: 0.1px solid #f0eded;
+}
+.content3_head
+{
+	text-align: center;
+	margin-top: 100px;
+}
+.price
+{
+	display: flex;
+	line-height: 30px;
+	justify-content: space-around;
+	font-family: 'Poppins', sans-serif;
+	padding: 20px 0px;
+}
+.price >div >h4
+{
+	font-size: 1.3rem;
+}
+.price >#head
+{
+	font-size: 1.6rem;
+}
+.content3_sub
+{
+	height: 70vh;
+	width: 80%;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 40px;
+	background-color: #f9f9ff;
+}
+.content3_list >ul
+{
+	list-style: none;
+	padding-left: 40px;
+	line-height: 40px;
+	color: #baaca0;
+	font-size:15px;
+	padding-bottom: 20px;
+}
+.content3_list>button
+{
+	background-color: #222222;
+	color: white;
+	text-align: center;
+	height: 40px;width: 65%;
+	font-weight: bolder;
+	margin-left: 35px;
+	margin-bottom: 20px;
+}
+.content3_list>button>img
+{
+	height: 20px;width: 30px;
+	transition: 0.4s;
+}
+.content3_list>button
+{
+	display: flex;
+	justify-content:space-evenly;
+	align-items: center;
+}
+#center
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	height: 50px;
+	width: 85%;
+	color: #baaca0;
+	margin-left: 35px;
+	padding:20px 0px ;
+}
+.content3_head
+{
+	height: 150px;
+}
+.content3_head >h1
+{
+	font-size:2.4rem ;	
+	font-family: 'Poppins', sans-serif;
+	color: #222222;
+}
+.content3_head >p
+{
+	color:#baaca0 ;
+	font-family: 'Poppins', sans-serif;
+}
+.content3_main
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.hover
+{
+	height: 55vh;
+	transition: 0.3s;
+}
+.hover:hover 
+{
+	background-color: #3698f9;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.hover:hover p
+{
+	color: white;
+}
+.hover:hover .content3_list>ul
+{
+	color: white;
+}
+.hover:hover .content3_list>button
+{
+	color: black;
+	background-color: white;
+}
+.hover:hover .content3_list>button>img
+{
+	filter:invert(100%);
+}
+.content3_list>button:hover img
+{
+	transform: translate(10px);
+}

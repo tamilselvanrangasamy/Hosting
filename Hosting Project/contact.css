@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.contact_head
+{
+	font-family: 'Poppins', sans-serif;
+	margin: 60px 0px;
+	text-align: center;
+	height: 100%;
+}
+.contact_head>h1
+{
+	font-size: 2rem;
+	padding: 20px 0px;
+}
+.contact_head>p
+{
+	font-size: 14px;
+	color: #9d9eba;
+}
+.main_form
+{
+	display: flex;
+	justify-content:center;
+}
+.form1
+{
+	width: 100%;
+}
+.contact_form2
+{
+	width: 50%;
+}
+#text
+{
+	height: 45px;
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-left: 15px;
+}
+#text:focus,textarea:focus
+{
+	box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+	outline: none;
+	border: none;
+}
+textarea
+{
+	height:190px;
+	padding-left: 15px;
+	width: 70%;
+	font-family: 'Poppins', sans-serif;
+	margin: 0 10%;
+}
+.form_2>button
+{
+	font-family: 'Poppins', sans-serif;
+	height: 40px;
+	width: 35%;
+	color: white;
+	margin: 2% 10%;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25px;
+	background-color: #3898f8;
+	transition: 1s;
+}
+.form_2 > button > img
+{
+	height: 25px;
+	transform: translate(10px);
+}
+.form_2 > button:hover
+{
+	cursor: pointer;
+}
+.form_2 > button:hover img
+{
+	transform: translate(20px);
+}

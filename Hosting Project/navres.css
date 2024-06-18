@@ -1,0 +1,318 @@
+@media all and (max-width:650px)
+{
+	.responsive>button
+	{
+		display: block;
+	}
+	.nav_list li a
+	{
+		display: none;
+	}
+	.content3_sub #center
+	{
+		text-align: center;
+	}
+	.content3_list>ul
+	{
+		text-align: center;
+	}
+	.content3_list>button
+	{
+		display: flex;
+		position: absolute;
+		left: 15%;
+		justify-content: space-evenly;
+	}
+	.content3_head>h1
+	{
+		font-size: 30px;
+		padding-top: 30px;
+	}
+	.content2_sub
+	{
+		display: block;
+	}
+	.content_para>p
+	{
+		font-size: 14px;
+	}
+	.content_para
+	{
+		width: 100%;
+	}
+	.service_content>.service_content1,
+	.service_content>.service_content2
+	{
+		display: block;
+	}
+	.service_content
+	{
+		display: flex;
+	}
+	.service_content>.service_content1>#service_content1,
+	.service_content>.service_content2>#service_content1
+	{
+		width: 90%;
+	}
+	.contact_form2>.form_2>button
+	{
+		font-size: 14px;
+	}
+	#footermail>button
+	{
+		width: 100%;
+	}
+	#footermail>input
+	{
+		width: 200px;
+	}
+}
+@media all and (max-width:1300px)
+{
+	.main_content_head >h1
+	{
+		width: 55%;
+	}
+	.main_content_para >p
+	{
+		width: 70%;
+	}
+	.img_content1 >a>img
+	{
+		height: 15vh;
+	}
+	.content3_list>button
+	{
+		width:60%;
+	}
+	.service_overlay>.service_flex>.overlay_text>p
+	{
+		width: 200%;
+	}
+	.service_overlay>.service_flex>.overlay_text>h1
+	{
+		width: 200%;
+	}
+	.footer_img>.insta
+	{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.footer_head
+	{
+		display: flex;
+		flex-direction: column;
+		margin-left: 20%;
+	}
+	.footer_mail>p
+	{
+		width: 200%;
+	}
+	#footermail
+	{
+		display:flex;
+		margin-left: 10%;
+		flex-direction: column;
+	}
+
+}
+@media all and (max-width:1000px)
+{
+	.content3_main
+	{
+		display: block;
+	}
+	.main_content_head >h1
+	{
+		font-size: 2.4rem;
+	}
+	#about >.about_content
+	{
+		display: block;
+		padding: 10%;
+	}
+	#about >.about_content>.about_para >p
+	{
+		width:250%;
+	}
+	#about >.about_content>.about_para >h1
+	{
+		width:200%;
+		font-size: 27px;
+	}
+	#about >.about_content>.about_para >button
+	{	
+		margin-bottom: 25px;
+	}
+	.faq_content>.faq_content
+	{
+		display:block;
+	}
+	.contact_form2>.form_2>button
+	{
+		width:50%;
+	}
+	.theend
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.face,.be,.instaf,.tweet
+	{
+		margin: 4% 0.6%;
+	}
+}
+@media all and (max-width:750px)
+{
+	.main_content_head >h1
+	{
+		width: 70%;
+	}
+	.main_content_para >p
+	{
+		width: 60%;
+	}
+	.content_button >button
+	{
+		top: 67%;
+	}
+	.service_overlay>.service_flex>.overlay_text>h1
+	{
+		font-size: 25px;
+	}
+	#faq_head>#faq_content>button
+	{
+		width: 50%;
+	}
+	.contact_form2>.form_2>button
+	{
+		width:70%;
+	}
+	form >.main_form
+	{
+		display: block;
+	}
+	.form_1
+	{
+		width: 50%;
+	}
+	.footer_mail>p
+	{
+		width: 200%;
+	}
+}
+@media all and (max-width:500px)
+{
+	.main_content_head >h1
+	{
+		width: 85%; 
+		top: 17%;
+	}
+	.main_content_para >p
+	{
+		width: 80%;
+	}
+	.content_button >button
+	{
+		top: 70%;
+	}
+	.img_content1 >a>img
+	{
+		margin: 20px;
+	}
+	.service_content
+	{
+		display: block;
+	}
+	.service_content1>#service_content1,
+	.service_content2>#service_content1
+	{
+		margin-bottom: 25px;
+	}
+	.service_overlay>.service_flex>.overlay_text>h1
+	{
+		font-size: 22px;
+	}
+	.form_1
+	{
+		width: 70%;
+		margin-left: 25px;
+	}
+	.form_2>textarea
+	{
+		width: 100%;
+		margin-left: 25px;
+	}
+	#footermail>button
+	{
+		width: 120%;
+	}
+}
+@media all and (max-width:400px)
+{
+	.main_content_head >h1
+	{
+		width: 70%; 
+		top: 17%;
+		font-size:2.5rem ;
+	}
+	.content_button >button
+	{
+		top: 77%;
+	}
+	.content3_head>h1
+	{
+		font-size: 1.4rem;
+		width: 100%;
+	}
+	#hr
+	{
+		margin-top:30%;
+	}
+	.content_para >p
+	{
+		width: 270px;
+	}
+	.content2_sub
+	{
+		display: block;
+	}
+	.service_overlay>.service_flex>.overlay_text>p
+	{
+		font-size: 12px;
+	}
+	.contact_form2>.form_2>button
+	{
+		width:100%;
+	}
+	.footer_mail>p
+	{
+		width: 250%;
+	}
+	#footermail>input
+	{
+		width: auto;
+	}
+	.insta>ul>li,.footer_img
+	{
+		/*display: flex;
+		flex-direction: column;*/
+		display: none;
+	}
+}
+@media all and (max-width:340px)
+{
+	.service_overlay>.service_flex>.overlay_text>button
+	{
+		font-size: 10px;
+		width: 150px;height: 30px;
+	}
+	.content3_list>button
+	{
+		height: 20px;
+	}
+}
+
+
+

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+#footer
+{
+	background-color: black;
+	height: auto;
+	font-family: 'Poppins', sans-serif;
+	width:100% ;
+}
+h4
+{
+	font-size: 1.4rem;
+	padding-bottom: 20px;
+}
+.footer_content ul li
+{
+	list-style: none;
+	line-height: 30px;
+}
+.footer_content,.footer_content>ul>li>a
+{
+	color: white;
+	text-decoration: none;
+}
+.footer_mail
+{
+	color: white;
+	width: 36%;
+}
+.footer_img>h4
+{
+	color: white;
+}
+.footer_head
+{
+	display: flex;
+	padding: 6% 0px;
+	justify-content: space-evenly;
+}
+.insta>ul
+{
+	display: flex;
+}
+.insta>ul>li
+{
+	padding-right:5%;
+}
+#footermail>input
+{
+	width: 120%;
+	font-family: 'Poppins', sans-serif;
+	height: 40px;
+	padding-left: 20px;
+	border-radius: 20px;
+}
+#footermail
+{
+	display: flex;
+	width:100%;
+	align-items: center;
+}
+.footerbutton
+{
+	font-family: 'Poppins', sans-serif;
+	height: 40px;
+	width: 70%;
+	color: white;
+	margin: 2% 10%;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25px;
+	background-color: #3898f8;
+	transition: 1s;
+}
+.footerbutton > img
+{
+	height: 25px;
+	transform: translate(10px);
+}
+.footerbutton:hover
+{
+	cursor: pointer;
+}
+.footerbutton:hover img
+{
+	transform: translate(20px);
+}
+.theend
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.face,.be,.instaf,.tweet
+{
+	height: 35px;
+	background-color: white;
+	width: 35px;
+	padding: 0 6px;
+}
